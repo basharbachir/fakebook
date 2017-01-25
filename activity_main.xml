@@ -1,0 +1,74 @@
+    <LinearLayout
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon"/>
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English"/>
+
+            <TextView
+                android:id="@+id/change_lang"
+                android:textColor="@android:color/white"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/et_sub"
+                android:maxLines="1"
+                android:imeOptions="actionNext"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email or phone number"/>
+            <EditText
+                android:id="@+id/et_text"
+                android:inputType="textPassword"
+                android:imeOptions="actionDone"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"/>
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"/>
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facebook Registration"/>
+        <TextView
+            android:id="@+id/lost_pass"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lost Password"/>
+    </LinearLayout>
+</RelativeLayout>
