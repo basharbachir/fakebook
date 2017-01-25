@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackgroundFB">#3c5a99</color>
+    <color name="colorTextFb">#9ba9c9</color>
+    <color name="colorButtonFb">#4f6aa3</color>
+</resources>
